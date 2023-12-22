@@ -1,0 +1,130 @@
+<html>
+    <head>
+	<style>
+	.container {
+        display:grid;
+		border:5px solid black;
+		grid-template-rows:1fr 3fr 1fr;
+		}
+	.header {
+	    background:blue;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:red;
+		display:flex;
+		flex-direction:column;
+	    font-size:1.5em;
+		text-align:center;
+		grid-column:span 1;
+	    }
+	.main {
+	    background:yellow;
+	    font-size:1.5em;
+		text-align:center;
+		border-align:center;
+		padding:10px;
+		grid-column:span 2;
+		}
+	.footer {
+	    background:green;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+		
+	@media only screen and (max-width:600px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			grid-template-columns: 1fr 3fr;
+		  grid-template-rows:1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+		.header {
+	    background:blue;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+		.nav {
+	    background:red;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 1;
+	    }
+	.main {
+	    background:yellow;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 2;
+		}
+		.footer {
+	    background:green;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+	 }
+	 @media only screen and (max-width:300px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			grid-template-rows:1fr 1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+		.header {
+	    background:blue;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:red;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.main {
+	    background:yellow;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.footer {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;                                      
+	
+		}
+	
+	
+	
+	    }
+	</style>
+	    <title>ABOUT</title>
+	</head>
+<body>
+
+<div class=container>	
+   
+    <div class=header>GET TO KNOW ME</div>
+	<div class=nav><a href=MAIN.html>MAIN</a>
+	<a href=LIKES.html>MY LIKES</a><a href=HOBBIES.html>MY HOBBIES</a></div>
+	<div class=main>Hi, I am Marc Matteo C. Bas a student from Don Bosco Technical College or DBTC<br>
+I am 15 years old and I was born in a beautiful country called the Philippines, more specifically Cebu City on December 31, 2007<br>
+I live in Talisay CIty and am currently a Grade 9 student. You can browse on the left side to see my (Main,Likes,Hobbies)</br></br></div>
+	<div class=footer><a href=README.html>By Marc Matteo C. Bas From G9-B</a></div>
+	
+	</div>
+</body>
+</html>	
